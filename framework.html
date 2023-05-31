@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class=" " >
-    <div class="shadow-xl flex justify-center text-justify">
+        
+  <body class="bg-slate-300 flex justify-center items-center m-0 p-0 h-screen " >
+    <div class="shadow-xl rounded-lg text-center bg-slate-100 p-5" >
     <h1 class="text-3xl font-bold underline">Login</h1>
     <form>
-      <label for="username">Username:</label>
-      <input type="text" id="username" placeholder="Enter your username" />
-
+      <div class="m-4">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username" />
+      </div>
+     <div class="m-4">
       <label for="password">Password:</label>
       <input type="password" id="password" placeholder="Enter your password" />
-      <button type="submit">Log In</button>
-    </div>
+     </div> 
+      <button type="submit" class="border-4 border-blue-600 p-2 rounded-full hover:bg-green-800">Log In</button>
     </form>
+    </div>
   </body>
 </html>
